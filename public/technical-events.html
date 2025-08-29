@@ -25,8 +25,12 @@
             <img src="/assets/noise-2.gif" class="noise">
             <div class="ev-one">Technical<br> Events</div>
 
-            <div class="h-scroll">
-                Navigate by scrolling sideways to discover events
+            <div class="h-scroll laptop-scroll-text">
+                Navigate by scrolling to discover events.
+            </div>
+
+            <div class="h-scroll phone-scroll-text">
+                Navigate by scrolling sideways to discover events.
             </div>
 
             <div class="items">
@@ -39,7 +43,7 @@
             <img src="../assets/noise-2.gif" class="noise">
             <audio id="hover-music" src="../music/Sanity.wav" preload="auto"></audio>
             <div id="flicker" class="scroll-text">
-                Scroll
+                Scroll  
             </div>
 
             <div class="h-scroll-fix laptop-scroll-text">
@@ -87,15 +91,14 @@
                         </div>
                         <div class="menu-links-new">
                             <div class="container">
-                                <a href="../index.html" class="text">Index</a>
-                                <a href="aboutus.html" class="text">About</a>
-                                <a href="proshows.html" class="text">Pro Shows</a>
-                                <a href="Events.html" class="text">Events</a>
-                                <a href="teams.html" class="text">Team</a>
-                                <a href="https://hacksrm25.vercel.app/" class="text">HackSRM</a>
-                                <a href="faq.html" class="text">FAQ</a>
+                                <a href="../index.html" class="text" id="index">Index</a>
+                                <a href="aboutus.html" class="text" id="about">About</a>
+                                <a href="proshows.html" class="text" id="proshows">Pro Shows</a>
+                                <a href="Events.html" class="text" id="events"  style="color: #ff0000;">Events</a>
+                                <a href="teams.html" class="text" id="team">Team</a>
+                                <a href="https://hacksrm25.vercel.app/" class="text" id="hack">HackSRM</a>
+                                <a href="faq.html" class="text" id="faq">FAQ</a>
                             </div>
-
                         </div>
                         <div class="menu-links-new-2">
                             <div class="column">
@@ -120,16 +123,16 @@
                 <div class="slider-wrapper">
                     <!-- Original slides (we will clone them dynamically) -->
                     <div class="slide" data-title="SkyQuest 2.0"
-                        data-desc="A multifaceted drone technology event combining engineering challenges with aerial artistry. Teams build custom drones, participate in hands-on workshops to master drone assembly, and witness a synchronized drone light show. The event showcases both technical drone-building skills and the creative possibilities of drone technology."
+                        data-desc="A multifaceted drone technology event combining a hands-on workshop with an exciting hackathon. Participants will design custom autonomous payload-dropping systems for drones, honing their engineering and problem-solving skills in a collaborative environment. The event showcases both technical drone-building skills and the creative possibilities of drone technology."
                         data-img="/Posters/Sky quest.webp" data-img2="./assets/img2.webp">
                         <img src="/Posters/Sky quest.webp" alt="img1" class="slide-link" />
                         <a href="" class="rule-link">[ Register ]</a>
                         <div class="slide-link">View</div>
                     </div>
-                    <div class="slide" data-title="Battle Bots National Arena"
+                    <div class="slide" data-title="Battle Bellum"
                         data-desc="A thrilling robotics competition where teams pit their custom-built battle bots against each other in an arena-style combat format. The event tests participants' abilities in robot design, construction, and battle strategy, bringing mechanical warfare to life. "
                         data-img="/Posters/battle bots.webp" data-img2="./assets/img3.webp">
-                        <img src="/Posters/battle bots.webp" alt="img2" class="slide-link" />
+                        <img src="/Posters/battle bellum.webp" alt="img2" class="slide-link" />
                         <a href="" class="rule-link">[ Register ]</a>
                         <div class="slide-link">View</div>
                     </div>
@@ -155,28 +158,43 @@
                         <a href="" class="rule-link">[ Register ]</a>
                         <div class="slide-link">View</div>
                     </div>
-                    <div class="slide" data-title="Code Combat: Ultimate DSA Challenge"
-                        data-desc="A competitive programming event testing participants' mastery of data structures and algorithms. Contestants solve complex coding problems that challenge their problem-solving abilities and coding efficiency."
-                        data-img="/Posters/code combat.webp" data-img2="./assets/img1.webp">
-                        <img src="/Posters/code combat.webp" alt="img5" class="slide-link" />
+                    <div class="slide" data-title="Cookie Run"
+                        data-desc="A thrilling mobile gaming tournament centered on Cookie Run, where players race their favorite cookies through vibrant, obstacle-filled tracks. Participants must showcase their platforming agility, collect points, and outpace their opponents to emerge victorious. Combine strategic team composition, precise timing, and quick reflexes to secure the championship title in this high-energy competition!"
+                        data-img="/Posters/cookie run.webp" data-img2="/Posters/bgmi.webp">
+                        <img src="/Posters/cookie run.webp" alt="img5" class="slide-link" />
                         <a href="" class="rule-link">[ Register ]</a>
                         <div class="slide-link">View</div>
                     </div>
-                    <div class="slide" data-title="Circuit Debugging"
-                        data-desc=" An electronics competition where participants analyze and repair malfunctioning circuits. Contestants must use their knowledge of electronic components and circuit theory to identify and fix issues in distorted circuits."
-                        data-img="/Posters/circuit debugging.webp" data-img2="./assets/img1.webp">
-                        <img src="/Posters/circuit debugging.webp" alt="img5" class="slide-link" />
+                    <div class="slide" data-title="Real Cricket"
+                        data-desc="Step into the arena for the Real Cricket Tournament, where squads of cricket enthusiasts compete in electrifying matches. From expert batting techniques to sharp bowling strategies and flawless fielding coordination, teams must master every aspect of the sport. The path to glory demands keen tactical acumen, teamwork, and nerves of steel to dominate the digital pitch and claim the crown of Real Cricket champions."
+                        data-img="/Posters/real cricket.webp" data-img2="/Posters/bgmi.webp">
+                        <img src="/Posters/real cricket.webp" alt="img5" class="slide-link" />
                         <a href="" class="rule-link">[ Register ]</a>
                         <div class="slide-link">View</div>
                     </div>
+                    <div class="slide" data-title="Bullet Echo"
+                        data-desc="Dive into the action with the Bullet Echo Tournament, where teams of stealthy warriors engage in adrenaline-pumping top-down battles. Assemble your squad of heroes, leveraging unique abilities and tactical positioning to outmaneuver and outgun your opponents. Victory demands sharp awareness, seamless teamwork, and precise execution in this intense and fast-paced competitive showdown."
+                        data-img="/Posters/bullet echo.webp" data-img2="/Posters/bgmi.webp">
+                        <img src="/Posters/bullet echo.webp" alt="img5" class="slide-link" />
+                        <a href="" class="rule-link">[ Register ]</a>
+                        <div class="slide-link">View</div>
+                    </div>
+                    <div class="slide" data-title="Road Of Valor"
+                        data-desc="Unleash your strategic prowess in the Road to Valor Tournament, where players command legendary units and mythological heroes in epic real-time strategy battles. Build the ultimate army, deploy powerful tactics, and outwit your rivals on the battlefield. Survival, quick decision-making, and mastering your army’s strengths are key to conquering the road to valor and achieving ultimate glory!"
+                        data-img="/Posters/road of valor.webp" data-img2="/Posters/bgmi.webp">
+                        <img src="/Posters/road of valor.webp" alt="img5" class="slide-link" />
+                        <a href="" class="rule-link">[ Register ]</a>
+                        <div class="slide-link">View</div>
+                    </div>
+                    
                     <a href="cultural-events.html">
                         <div class="slide">
-                            <img src="/Posters/cult-cs.webp" alt="img3" />
+                            <img src="/Posters/cultural-nav.webp" alt="img3" />
                         </div>
                     </a>
                     <a href="non-technical.html">
                         <div class="slide">
-                            <img src="/Posters/nontech-cs.webp" alt="img3" />
+                            <img src="/Posters/non-tech-nav.webp" alt="img3" />
                         </div>
                     </a>
 
